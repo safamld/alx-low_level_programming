@@ -1,9 +1,8 @@
 #include<stdio.h>
 /**
- * print message   p rogramming is like building a multilingual puzzle
- *  
- *     without using printf that returns 
- *
+ * main- print message   
+ *   
+ *     Return:sucess
   */
 int main(void){
 puts("\"Programming is like building a multilingual puzzle\n");
