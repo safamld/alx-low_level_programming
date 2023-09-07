@@ -1,4 +1,3 @@
-#!/bin/bash
 #include<stdio.h>
 /*  print message without using printf that returns  */
 int main(){
