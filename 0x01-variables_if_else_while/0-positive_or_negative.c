@@ -1,20 +1,24 @@
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
-/* more headers goes there */ 
-/* betty style doc for function main goes there */ 
-int main(void)
+/**
+*main - random
+*
+*Description:assign a random number to the variable n each time it is exec
+*
+*Return:sucess or error
+*
+*/ 
+int main(void) 
 {
 int n; 
 srand(time(0)); 
 n = rand() - RAND_MAX / 2; 
-if (n > 0) {
+if (n > 0) 
 printf("%d is positive\n", n);
-} else if (n < 0) {
+else if (n < 0) 
 printf("%d is negative\n", n);
-} else {
+else 
 printf("%d 0 is zero\n", n);
-}	
 return (0);
 }
-	 
