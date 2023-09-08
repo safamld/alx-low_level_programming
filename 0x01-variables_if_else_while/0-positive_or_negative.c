@@ -13,7 +13,7 @@ printf("%d is positive\n", n);
 } else if (n < 0) {
 printf("%d is negative\n", n);
 } else {
-printf("%d is neither positive nor negative (it's zero).\n", n);
+printf("%d 0 is zero\n", n);
 }	
 return (0);
 }
