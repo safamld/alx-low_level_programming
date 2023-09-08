@@ -7,5 +7,6 @@ nclude <stdio.h>
  *     */
 int main(void)
 {
-	    return (0);
+	printf("hello world");    
+	return (0);
 }
