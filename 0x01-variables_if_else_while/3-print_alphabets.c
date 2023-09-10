@@ -11,11 +11,12 @@ int main(void)
 char i, j;
 for (i = 'a'; i < = 'z'; i++)
 {
-puchar(i\n);
+puchar(i);
 }
-for (j = 'A';j < = 'Z'; j++)
+for (j = 'A'; j < = 'Z'; j++)
 {
-puchar(j\n);
+puchar(j);
 }
+puchar(\n)
 return (0);
 }
