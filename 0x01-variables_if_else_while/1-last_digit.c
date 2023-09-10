@@ -2,16 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main-fonction de lzst degit 
+*main -fonction de lzst degit 
 *Return:0 
 */ 
 int  main(void) 
 { 
 int n; 
 printf("enter n %d", n);
+int last_digit  =       n       %       10;
 srand(time(0)); 
 n = rand() - RAND_MAX / 2;
-int last_digit  =       n       %       10;
 /*your code goes there */
 if (last_digit	>	5)
 {
