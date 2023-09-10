@@ -1,15 +1,16 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
 * main - Entry point
 *
 * Description: Prints the lowercase alphabet using the putchar function.
 *     
-* Return: Always 0 (Success).
+* Return : Always Success
 */
 int main(void)
-{	    
-char letter = 'a';
+{
+char letter ;	
+letter = 'a';
 
 while (letter <= 'z')
 {
