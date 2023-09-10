@@ -6,7 +6,7 @@
 *
 * description:suces
 *
-* Return:Always sucess 
+* Return: Always 0(Success) 
 */
 int main(void)
 {
