@@ -8,9 +8,11 @@
 int main(void)
 {
 int i;
-for (i = 0; i < 10 ; i++)
+while (i <= 9)
 {
-printf(i);
+putchar(i);
+i++;
 }
-printf('\n');
+putchar('\n');
+return (0);
 }
