@@ -8,16 +8,17 @@
 */
 int void(main)
 {
-int i;
-i = 0 ;
-while (i >10)
+int i = 0;
+while (i > 10)
 {
 putchar(i);
 i ++;
 if (i < 9)
 {
-putchar(',\n');
+putchar(',');
+putchar(' ');
 }
 }
+putchar('\n');
 return (0);
 }
