@@ -10,7 +10,7 @@ int main(void)
 {
 char hex_digits[] = "0123456789abcdef";
 int n = 0;
-while (n < 17)
+while (n < 16)
 {
 putchar(hex_digits[n]);
 n ++;
