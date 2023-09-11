@@ -2,7 +2,7 @@
 /*
 * main - function de digit
 *
-* description: print num en un seule ligne
+* description: Function that return digit numbers separated by comma.
 *
 * Return: sucess
 */
