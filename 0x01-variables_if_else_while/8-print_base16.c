@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
 * main - function hexadecimal
 *
 * description: print numb hex
