@@ -7,9 +7,9 @@
 int main(void)
 {
 char lowercase = 'a';
-while (lowercase = 'z')
+while (lowercase == 'z')
 {
-if (lowercase != 'q' && lowercase != 'e')
+if (lowercase !== 'q' && lowercase !== 'e')
 {
 putchar(lowercase);
 }
