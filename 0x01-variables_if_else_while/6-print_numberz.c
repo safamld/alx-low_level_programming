@@ -5,7 +5,7 @@
 * description: fonction qui retourn digit
 * 
 * Return: sucess
-*\
+*/
 int main(void)
 {
 int i;
