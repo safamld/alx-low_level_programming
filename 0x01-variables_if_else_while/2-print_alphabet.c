@@ -2,9 +2,9 @@
 /**
 * main - Entry point
 *
-* Description: Prints the lowercase alphabet using the putchar function.
+* description: Prints the lowercase alphabet using the putchar function.
 *     
-* Return : Always Success
+* Return - 0 Successful
 */
 int main(void)
 {
