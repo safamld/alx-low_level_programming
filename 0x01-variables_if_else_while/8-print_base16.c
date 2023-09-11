@@ -8,11 +8,12 @@
 */
 int main(void)
 {
+char hex_digits[] = "0123456789abcdef";
 int n = 0;
-while (n < 9)
+while (n < 17)
 {
-putchar(n);
-n ++ ;
+putchar(hex_digits[n]);
+n ++;
 }
 putchar('\n');
 return (0);
