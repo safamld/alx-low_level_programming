@@ -13,7 +13,7 @@ int n = 0;
 while (n < 16)
 {
 putchar(hex_digits[n]);
-n ++;
+n++;
 }
 putchar('\n');
 return (0);
