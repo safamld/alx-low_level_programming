@@ -1,4 +1,4 @@
-#include <stdih.h>
+#include <stdio.h>
 /*
 * main - function hexadecimal
 *
