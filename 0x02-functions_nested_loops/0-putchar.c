@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
 * main - This is the entry point of the code
 *
@@ -6,6 +6,6 @@ nclude <stdio.h>
 */
 int main(void)
 {
-	printf('_putchar\n');
-	return (0);
+printf('_putchar');
+return (0);
 }
