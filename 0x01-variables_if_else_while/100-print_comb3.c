@@ -14,7 +14,7 @@ while(j < 10)
 {
 if ( i != j)
 {
-putchar(("%d%d", i, j);
+putchar("%d%d", i, j);
 j++;
 }}
 i++;
