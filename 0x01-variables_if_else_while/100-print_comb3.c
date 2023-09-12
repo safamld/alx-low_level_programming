@@ -16,11 +16,12 @@ if ( i != j)
 {
 putchar("%d%d", i, j);
 j++;
-}}
-i++;
-putchart(',');
-putchart(' ');
 }
-putchart('\n');
-return (0)
+}
+i++;
+putchar(',');
+putchar(' ');
+}
+putchar('\n');
+return (0);
 }
