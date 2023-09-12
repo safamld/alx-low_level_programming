@@ -8,14 +8,15 @@ void print_alphabet_x10(void)
 {
 int i = 0;
 char alph = 'a';
+while (i <= 0)
+{
 while (alph <= 'z')
 {
-while (i <= 10)
-{
 _putchar(alph);
-i++;
-}
 alph++;
 }
 _putchar('\n');
+alph ='a';
+i++;
+}
 }
