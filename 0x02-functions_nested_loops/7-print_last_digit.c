@@ -1,13 +1,18 @@
 #include "main.h"
 /**
-* function print last digit
+* print_last_digit - function print last digit
 *
-* description : fonction qui retourne last degit n.
+* Description: fonction qui retourne last degit n.
 *
 * Return: Sucess
 */
 int print_last_digit(int n)
 {
-int ldigit = n % 10;
+int ldigit;
+if (n < 0)
+ldigit = -1 * (n  % 10);
+else 
+ldigit = n % 10;
+_putchar(ldigit + '0');
 return (ldigit);
 }
