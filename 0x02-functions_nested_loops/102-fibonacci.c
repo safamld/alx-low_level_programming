@@ -14,7 +14,7 @@ while (i < 50)
 {
 if (i == 0)
 printf("%ld", a);
-else if (i == 2)
+else if (i == 1)
 printf("%ld", b);
 else
 {
