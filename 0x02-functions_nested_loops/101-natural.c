@@ -8,10 +8,10 @@
 */
 int main(void)
 {
-int i,s = 0;
+int i, s = 0;
 while (i < 1024)
 {
-if (i % 3 == 0) || (i % 5 == 0)
+if ((i % 3 == 0) || (i % 5 == 0))
 {
 s += i;
 }
