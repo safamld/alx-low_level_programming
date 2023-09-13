@@ -17,5 +17,6 @@ s += i;
 }
 i++;
 }
+printf("%d\n", s);
 return (0);
 }
