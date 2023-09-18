@@ -6,10 +6,13 @@
 *
 * Return: nothing
 */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 int i;
-for (str[i] = '\0'; i = 0; i++)
-_putchar(str[i]);
+int l = 0;
+for (i = 0; s[i] != '\0'; i++)
+l++;
+for (i = l - 1; i >= 0; i--)
+_putchar(s[i]);
 _putchar('\n');
 }
