@@ -1,9 +1,8 @@
 #include "main.h"
 /**
-* reset_to_98 - prints the numbers 
+* reset_to_98 - prints the number
 *
-* @n: the value of n 
-* @p: pointer
+* @n: the value of n
 *
 * Return: nothing
 */
