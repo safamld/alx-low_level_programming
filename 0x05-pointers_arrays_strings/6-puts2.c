@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* puts2 - function prints string 
+* puts2 - function prints string
 *
 * @i: entier
 * @str: the string tha we will print
