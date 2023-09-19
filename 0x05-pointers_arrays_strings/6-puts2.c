@@ -2,7 +2,7 @@
 /**
 * puts2 - function prints string
 *
-* @i: entier
+* @i: compteur
 * @str: the string tha we will print
 *
 * Return: nothing
