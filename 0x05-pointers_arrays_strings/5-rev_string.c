@@ -8,15 +8,17 @@
 */
 void rev_string(char *s)
 {
+int moit;
 int i = 0;
 char x;
 int l = 0;
-for (i = 0; s[i] != '\n'; i++)
-l++;
-for (i = 0; i < (l / 2); i--)
+for (i = 0; s[i] != '\0'; i++)
+moit = i / 2;
+while (moit--)
 {
-x = s[i];
-s[i] = s[l - 1 - i];
-s[l - 1 - i] = x;
+x  = s[i - l - 1];
+s[i - l - 1] = s[i];
+s[i] = x;
+l++;
 }
 }
