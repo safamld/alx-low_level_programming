@@ -4,7 +4,7 @@
 * @s:adrrss of memomry to be filed
 * @b: desired value
 * @n: how much bytes will be changes
-* @Return: new value of bytes
+* Return: new value of bytes
 */
 char *_memset(char *s, char b, unsigned int n)
 {
