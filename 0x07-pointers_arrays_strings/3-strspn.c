@@ -3,7 +3,7 @@
 * _strspn - function gets the lenght of prefix
 * @s: segment
 * @accept: input
-* Rethrn: sucess
+* Return: sucess
 */
 unsigned int _strspn(char *s, char *accept)
 {
