@@ -35,6 +35,8 @@ f = 0;
 a++;
 }
 if (f == 0)
+{
 return (0);
+}
 return (c);
 }
