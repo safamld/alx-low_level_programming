@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _puts_recursion - function reverse
-* @s: string 
+* @s: string
 * Return: nothing
 */
 void _puts_recursion(char *s)
