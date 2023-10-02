@@ -1,14 +1,17 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* main - print the number of arguments
-* @argc: argument count
+* main - function that returns all args
+* @argc: argument count 
 * @argv: argument vector
 * Return: 0
 */
 int main(int argc, char *argv[])
 {
-(void) argv;
-printf("%d\n", argc - 1);
+int i;
+for (i = 0; i < argc; i++)
+{
+printf("%s\n", argv[i]);
+}
 return (0);
 }
