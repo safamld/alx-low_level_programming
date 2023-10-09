@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
  * malloc_checked - A function that allocates memory using malloc.
  * @b: integer variable dat holds the memory size
