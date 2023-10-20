@@ -16,5 +16,5 @@ else
 h = h->next;
 s++;
 }
-return(s);
+return (s);
 }
