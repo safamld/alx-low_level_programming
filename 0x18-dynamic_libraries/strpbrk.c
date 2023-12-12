@@ -6,3 +6,4 @@ return s; // Return the pointer to the first occurrence of any character from ac
 }
 s++;
 }
+}

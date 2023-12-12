@@ -7,4 +7,3 @@ s++;
 }
 return length;
 }
-}
