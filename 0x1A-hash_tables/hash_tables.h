@@ -2,6 +2,8 @@
 #define MAIN_H
 #include <stdlib.h>
 #include <stddef.h>
+#include <string.h>
+#include <stdio.h>
 typedef struct hash_node_s
 {
 char *key;
